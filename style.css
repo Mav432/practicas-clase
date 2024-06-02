@@ -1,0 +1,477 @@
+.bodyindex {
+    margin: 0;
+    padding: 0;
+    background-image: url(/coastal-town-minimalist-4k-51-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    background-attachment: scroll;
+}
+
+.menuInd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(84, 5, 211, 0.663);
+    height: 100px;
+}
+
+.tituloInd {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.textoIndex {
+    padding: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+}
+
+.textoIndex p{
+    justify-content: center;
+    color: aliceblue;
+}
+
+/*form -------------------------------------------------------------->>>>>>>>>>>>>>>>>>*/
+
+.h2form{
+    font-size: 50px;
+    background-color: rgba(81, 112, 250, 0.67);
+    margin: 0%;
+    color:aliceblue
+}
+
+.In{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.headertextform{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.bodyform{
+    background-color:rgba(59, 39, 240, 0.573)
+}
+
+/*maquetacion ------------------------------------------------------------->>>>>>>*/
+.bodyIndex_ma {
+    margin: 0;
+    padding: 0;
+    background-image: url(/birds-vector-landscape-minimal-4k-ur-2560x1600.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    justify-content: space-between;
+}
+
+.header_ma{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+
+.menu_ma {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(93, 0, 255, 0.911);
+    height: 90px;
+}
+
+.titulo_ma {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu_02{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.textoIndex_ma {
+    background-color: rgba(99, 30, 190, 0.721);
+    padding: 50px;
+    position:relative;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+}
+/*menu*/
+.a_ma{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+/*maqueta */
+.container_ma{
+    display: flex;
+    overflow-x: hidden;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.section_ma{
+    flex: 0 0 70%;
+    height: auto;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(12, 12, 91, 0.767);
+}
+
+.article_ma{
+    background-color: rgba(68, 156, 234, 0.636);
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-right: 10%;
+    height: 90px;
+    border-radius: 20px;
+    padding: 50px;
+    scrollbar-width: 100px;
+}
+
+.aside_ma{
+    background-color: rgba(11, 76, 228, 0.6);
+    flex: 0 0 30%;
+    height: 300px;
+    width: 50px;
+    margin: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.footer_ma{
+    background-color: rgba(99, 2, 100, 0.579);
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.info_ma{
+    display: flex;
+    justify-content: end;
+}
+
+/*slider*/
+.slider-frame_ma{
+    width: 480px;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider-frame_ma ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide02 20s infinite alternate ease-in-out;
+}
+
+.slider-frame_ma li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame_ma img{
+    width: 100%;
+}
+
+
+@keyframes slide02 {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
+
+/*mascotas ----------------------------------------------------->>>>>>>>*/
+
+.perrito{
+    width: 140px;
+    border-radius: 60%;
+}
+.div_header_ms {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+    
+}
+
+.headertext_ms{
+    
+    text-decoration: none;
+    color: black;
+}
+.header_main_ms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    background-color: #effb0493;
+}
+.butt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:smaller;
+    background-color: #f79504;
+    border-radius: 15px;
+    border: 4px solid;
+}
+.body_ms{
+    background-color: #e7b100cd;
+    margin: 0;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 65% 15%;
+}
+
+/*Estilos para las imgenes*/
+.slider-frame{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.slider-frame img{
+    width: 100%;
+}
+.slider-frame li img{
+    width: 60%;
+    height: auto;
+}
+@keyframes slide{
+    0% {margin-left: 0}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100% ;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200% ;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.footer{
+    padding:50px;
+    text-align: center;
+}
+
+/* quien soy ----------------------------------------------------->>>>>>>>>>>>>>>*/
+
+.bodyIndex_qs {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Quien_soy/img/paisaje-digital-en-atardecer-5846.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    background-attachment: scroll;
+}
+
+.menu_qs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(93, 0, 255, 0.911);
+    height: 100px;
+}
+
+.titulo_qs {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.textoIndex_qs {
+    background-color: rgba(106, 0, 255, 0.481);
+    padding: 50px;
+    position:relative;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+}
+
+.textoIndex_qs p{
+    justify-content: center;
+    color: aliceblue;
+}
+    
+/*Estilos del menu*/
+
+.a_qs {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/*Pagina de Estudios*/
+
+.bodyEstudios {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Quien_soy/img/29366.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.textoEstudios {
+    background-color: rgba(190, 63, 63, 0.699);
+    padding: 50px;
+    margin: 30px;
+    position: relative;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*Pagina de metas*/
+
+.bodyMetas {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Quien_soy/img/birds-vector-landscape-minimal-4k-ur-2560x1600.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.textoMetas {
+    background-color: rgba(200, 0, 255, 0.614);
+    padding: 70px;
+    margin: 30px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*Pagina Deportes-- Tabla*/
+
+.style-tabla {
+    color: black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: rgba(51, 0, 255, 0.648);
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.style-tabla thead tr {
+    background-color: rgba(0, 0, 255, 0.529);
+    text-align: middle;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: relative;
+}
+
+.style-tabla th,
+.style-tabla td {
+    padding: 20px 30px;
+    border-collapse: collapse;
+    border: 2px solid #c8e2cc;
+    position: relative;
+}
+
+.bodyDeportes {
+    margin: 0;
+    padding: 0px;
+    background-image: url(/Quien_soy/img/coastal-town-minimalist-4k-51-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.tablaDeportes {
+    padding: 70px;
+    margin: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+
+    
