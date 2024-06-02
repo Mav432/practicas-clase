@@ -327,7 +327,7 @@ html{
 .bodyIndex_qs {
     margin: 0;
     padding: 0;
-    background-image: url(/Quien_soy/img/paisaje-digital-en-atardecer-5846.webp);
+    background-image: url(img/paisaje-digital-en-atardecer-5846.webp);
     background-size: cover;
     background-repeat: repeat;
     position: relative;
@@ -388,7 +388,7 @@ ul li {
 .bodyEstudios {
     margin: 0;
     padding: 0;
-    background-image: url(/Quien_soy/img/29366.jpg);
+    background-image: url(img/29366.jpg);
     background-size: cover;
     background-repeat: repeat;
     position: relative;
@@ -410,7 +410,7 @@ ul li {
 .bodyMetas {
     margin: 0;
     padding: 0;
-    background-image: url(/Quien_soy/img/birds-vector-landscape-minimal-4k-ur-2560x1600.jpg);
+    background-image: url(img/birds-vector-landscape-minimal-4k-ur-2560x1600.jpg);
     background-size: cover;
     background-repeat: repeat;
     position: relative;
@@ -458,7 +458,7 @@ ul li {
 .bodyDeportes {
     margin: 0;
     padding: 0px;
-    background-image: url(/Quien_soy/img/coastal-town-minimalist-4k-51-1920x1080.jpg);
+    background-image: url(img/coastal-town-minimalist-4k-51-1920x1080.jpg);
     background-size: cover;
     background-repeat: repeat;
     position: relative;
