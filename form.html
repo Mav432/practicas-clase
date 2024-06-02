@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bodyform">
+    <a  class="In" href="index.html">Inicio</a>
+    <h2 class="h2form">Formularios con controles basicos</h2>
+    <form>
+        <fieldset>
+            <legend>Botones</legend>
+            <label>Campo de texto</label>
+            <input type="text" id="txt" value="Puede colocar texto"/>
+            <br>
+            <label>Area de texto</label>
+            <textarea id="txtar" rows="4" cols="60">Puede colocar texto
+            </textarea><br>
+            <label>Campo para contraseña</label>
+            <input type="password" id="psw" value="contraseña"/>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Control de seleccion</legend>
+            <label for="">Lista de seleccion simple(combo)</label>
+            <select name="mascota1">
+                <option value="">Perro</option>
+                <option value="">Gato</option>
+                <option value="">Roedor</option>
+            </select>
+            <label>Lista de seleccion simple</label>
+            <select name="mascota2" size="3">
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Roedor</option>
+            </select>
+            <label>Lista de seleccion multiple</label>
+            <select name="mascota3" size="3" multiple>
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Roedor</option>
+            </select><br>
+            <input type="radio" id="perro" name="tip_masc" value="1"/>
+            <label for="perro">Perro</label>
+            <input type="radio" id="gato" name="tip_masc" value="2"/>
+            <label for="gato">Gato</label>
+            <input type="radio" id="roedor" name="tip_masc" value="3" checked="checked"/>
+            <label for="roedor">Roedor</label>
+            <br>
+            <input type="checkbox" id="tam_ch" value="1"/>
+            <label for="chico">Chico</label>
+            <input type="checkbox" id="tam_md" value="1"/>
+            <label for="chico">Chico</label>
+            <input type="checkbox" id="tam_gd" value="2" checked="checked"/>
+            <label for="mediano">Mediano</label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Botones</legend>
+            <input type="submit" id="envia" value="Enviar informacion"/>
+            <input type="reset" id="borra" value="Borrar informacion"/>
+            <button type="button">Botón</button>
+        </fieldset><br>
+        <fieldset>
+            <legend>Otros</legend>
+            <label>imagen </label>
+            <input type="image" id="imagen" src="" alt="no hay"/>
+            <input type="text">
+            <label>Aqui va un control oculto(tipo hidden)</label>
+            <input type="hidden" id="oculto" value="Borrar informacion"/>
+        </fieldset>
+</body>
+</html>
