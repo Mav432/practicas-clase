@@ -8,10 +8,18 @@
 
 </head>
 <body class="bodyform">
-    <a  class="In" href="index.html">Inicio</a>
-    <h2 class="h2form">Formularios con controles basicos</h2>
+
+    <header>
+        <nav class="">
+            <h2 class="h2form">Formularios con controles basicos</h2>
+          <ul>
+            <li><a class="a_qs" href="index.html">INICIO</a></li>
+          </ul>
+        </nav>
+    </header>
+
     <form>
-        <fieldset>
+        <fieldset id="fieldset01">
             <legend>Botones</legend>
             <label>Campo de texto</label>
             <input type="text" id="txt" value="Puede colocar texto"/>
@@ -23,7 +31,7 @@
             <input type="password" id="psw" value="contraseña"/>
         </fieldset>
         <br>
-        <fieldset>
+        <fieldset id="fieldset01">
             <legend>Control de seleccion</legend>
             <label for="">Lista de seleccion simple(combo)</label>
             <select name="mascota1">
@@ -57,13 +65,13 @@
             <input type="checkbox" id="tam_gd" value="2" checked="checked"/>
             <label for="mediano">Mediano</label>
         </fieldset><br>
-        <fieldset>
+        <fieldset id="fieldset01">
             <legend>Botones</legend>
             <input type="submit" id="envia" value="Enviar informacion"/>
             <input type="reset" id="borra" value="Borrar informacion"/>
             <button type="button">Botón</button>
         </fieldset><br>
-        <fieldset>
+        <fieldset id="fieldset01">
             <legend>Otros</legend>
             <label>imagen </label>
             <input type="image" id="imagen" src="" alt="no hay"/>

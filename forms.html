@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link rel="website icon" type="jpg" href="/image/icon.jpg" />
+  <body class="body_f2">
+    <header>
+        <nav class="">
+            <h2>Marcial Hernandez Antonio</h2>
+          <ul>
+            <li><a class="a_qs" href="index.html">INICIO</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <main class="main_f2">
+      <form action="/submit" method="get" class="form">
+        <fieldset>
+          <legend class="informacion">Información</legend>
+          <label for="">Nombre</label>
+          <input type="text" name="Nombre" id="nombre" /><br /><br />
+          <label for="">Apellidos</label>
+          <input type="text" name="Apellidos" id="apellidos" /><br /><br />
+
+          <label>Sexo</label>
+          <input type="radio" name="tip_sex" value="2"/>
+          <label for="hombre">Hombre</label>
+          <input type="radio" name="tip_sex" value="3" checked="checked"/>
+          <label for="mujer">Mujer</label><br /><br />
+
+          <label for="">Correo electronico</label>
+          <input type="email" name="" id="" /><br /><br />
+          <input type="checkbox" name="" id="informacion" checked="checked" />
+          <label for=""
+            >Desea recibir informacion sobre novedades y ofertas</label
+          ><br />
+          <input type="checkbox" name="" id="condiciones" />
+          <label for=""
+            >Declaro haber leido y aceptar las condiciones generales del
+            programa y la normativa sobre proteccion de datos</label
+          ><br /><br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Cancelar" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
